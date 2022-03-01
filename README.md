@@ -29,3 +29,25 @@ PaperMC Server
 [C] - Close sourced
 [U] - Undecided
 ```
+
+## PaperMC Server Naming Scheme
+*Todo: Cool diagram!*
+
+#### `name` `spigot server id`-`server instance id`
+
+**For example:**
+
+`lobby1-A` - 1st PaperMC server dedicated to lobbies, connected to the first lobby instance on that PaperMC server.  
+- 1 lobby PaperMC server supports 3 lobby instances, each housing 50 players.
+
+`event6-D` - 6th PaperMC server dedicated to events, connected to the 4th event instance on that PaperMC server.  
+- 1 event PaperMC server *generally* supports 4 event instances, each housing 40 players.
+- Players per event is able to dynamically change, and thus change the amount of instances able to be ran on that PaperMC server.
+
+`minigame12-AB` - 12th PaperMC server dedicated to minigames, connected to the 28th minigame instance on that PaperMC server.  
+- 1 minigame PaperMC server *generally* supports 50 minigame instances, each housing 2-4 players.
+- Players per minigame is able to dynamically change, and thus change the amount of instances able to be ran on that PaperMC server.
+
+**Notes:**
+- Any figure here would most likely change with experimentation of systems.
+- Support for dynamically changing if a PaperMC server is a lobby, event, or minigame server might be added.
