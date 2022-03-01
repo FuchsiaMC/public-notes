@@ -30,7 +30,7 @@ PaperMC Server
 [U] - Undecided
 ```
 
-## PaperMC Server Naming Scheme
+## PaperMC Server Naming Scheme and Instance System
 *Todo: Cool diagram!*
 
 #### `name` `spigot server id`-`server instance id`
