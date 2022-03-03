@@ -14,14 +14,16 @@ PaperMC Server
 |       |   ├── [C] Capture-the-flag event, handling specific stats, logic, etc for it.
 |       |   └── [C] ...any other events.
 |       |
-|       └── [C] Megacorax - Minigames plugin handling duel minigames running async with eachother in different worlds, as well as parties and queuing, etc.
-|           ├── [C] No-Debuff Duels, handling specific stats, logic, etc for it.
-|           ├── [C] Boxing Duels, handling specific stats, logic, etc for it.
-|           ├── [C] Classic Duels, handling specific stats, logic, etc for it.
-|           ├── [C] Sumo Duels, handling specific stats, logic, etc for it.
-|           ├── [C] Top Fight Duels, handling specific stats, logic, etc for it.
-|           ├── [C] Bridge Duels, handling specific stats, logic, etc for it.
-|           └── [C] ...any other minigames.
+|       ├── [C] Megacorax - Minigames plugin handling duel minigames running async with eachother in different worlds, as well as parties and queuing, etc.
+|       |   ├── [C] No-Debuff Duels, handling specific stats, logic, etc for it.
+|       |   ├── [C] Boxing Duels, handling specific stats, logic, etc for it.
+|       |   ├── [C] Classic Duels, handling specific stats, logic, etc for it.
+|       |   ├── [C] Sumo Duels, handling specific stats, logic, etc for it.
+|       |   ├── [C] Top Fight Duels, handling specific stats, logic, etc for it.
+|       |   ├── [C] Bridge Duels, handling specific stats, logic, etc for it.
+|       |   └── [C] ...any other minigames.
+|       |
+|       └── [C] Gongylocarpus - Build server plugin handling autosaving, schematic saving, and uploading to the lobby database.
 |
 └── [O] Clarkia - Velocity plugin handling sending players to lobbies and proxy restarts.
 
